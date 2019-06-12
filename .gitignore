@@ -1,0 +1,4 @@
+#graph_based_learning_comparison/graphs/*
+#graph_based_learning_comparison/obj/*
+#graph_based_learning_comparison/sample_data/*
+graph_based_learning_comparison/__pycache__/
