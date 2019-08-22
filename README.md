@@ -12,8 +12,7 @@ Since all of this repository is implemented in Jupyter Notebooks, the easiest wa
 
 Basis Functions on Graphs: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/visualizing_graph_basis_functions.ipynb)
 
-Regression on Points Represented in Terms of Graph Basis Functions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/graph_regression.ipynb)
+Regression on Points Represented in Terms of Graph Basis Functions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/graph_regression.ipynb)
 
 Comparison of Graph Construction Methods: Not yet modified for Colab
 
