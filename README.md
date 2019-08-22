@@ -14,7 +14,7 @@ Basis Functions on Graphs: [![Open In Colab](https://colab.research.google.com/a
 
 Regression on Points Represented in Terms of Graph Basis Functions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/graph_regression.ipynb)
 
-Comparison of Graph Construction Methods: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/graph_based_learning_comparison/learning_on_graphs.ipynb)
+Comparison of Graph Construction Methods: Not yet modified for Colab
 
 ## Motivation - elaborated:
 
