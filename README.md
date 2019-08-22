@@ -10,11 +10,11 @@ In cases where Euclidean distance is a poor measure of distance between data poi
 
 Since all of this repository is implemented in Jupyter Notebooks, the easiest way to access the notebooks is by using the 'Open in Colab' badges below:
 
-Basis Functions on Graphs: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/jastern33/umap-semi-supervised/blob/master/basis_functions_on_graphs/VisualizingBasisFunctionsOnGraphs.ipynb)
+Basis Functions on Graphs: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/VisualizingBasisFunctionsOnGraphs.ipynb)
 
-Regression on Points Represented in Terms of Graph Basis Functions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/jastern33/umap-semi-supervised/tree/master/basis_functions_on_graphs/graph_regression.ipynb)
+Regression on Points Represented in Terms of Graph Basis Functions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/VisualizingBasisFunctionsOnGraphs.ipynb)
 
-Comparison of Graph Construction Methods: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/jastern33/umap-semi-supervised/blob/master/graph_based_learning_comparison/learning_on_graphs.ipynb)
+Comparison of Graph Construction Methods: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/graph_based_learning_comparison/learning_on_graphs.ipynb)
 
 ## Motivation - elaborated:
 
