@@ -4,7 +4,7 @@
 
 ## Motivation - TL;DR:
 
-In cases where Euclidean distance is a poor measure of distance between data points, we can impose a graph structure on the data which better represents distance between points. This structure can improve the performance of machine learning algorithms. This repository explores which method of constructing that graph results in the best-performing machine learning algorithms.
+In cases where Euclidean distance is a poor measure of distance between data points, we can impose a graph structure on the data which better represents distance between points. Especially in the case with much more labeled data than unlabeled data, this structure gives us information about the relative distances between the labeled data points, improving the performance of machine learning algorithms. This repository explores which method of constructing that graph results in the best-performing machine learning algorithms.
 
 ## Usage:
 
@@ -12,7 +12,7 @@ Since all of this repository is implemented in Jupyter Notebooks, the easiest wa
 
 Basis Functions on Graphs: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/VisualizingBasisFunctionsOnGraphs.ipynb)
 
-Regression on Points Represented in Terms of Graph Basis Functions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/VisualizingBasisFunctionsOnGraphs.ipynb)
+Regression on Points Represented in Terms of Graph Basis Functions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/basis_functions_on_graphs/graph_regression.ipynb)
 
 Comparison of Graph Construction Methods: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jastern33/graph-construction-semi-supervised/blob/master/graph_based_learning_comparison/learning_on_graphs.ipynb)
 
@@ -32,7 +32,9 @@ But what if our distance measure is off? Take our points `x_1` and `x_2` from th
 
 What is the solution? How can we better measure "manifold distance" instead of Euclidean distance?
 
-One way is to impose a *graph structure* on the data. We construct a graph by using Euclidean distance (generally) to map a point to a few of its nearest neighbors, and then use graph-based machine learning algorithms.
+One way is to impose a *graph structure* on the data. We construct a graph by using Euclidean distance (generally) to connect each point to a few of its nearest neighbors, and then use graph-based machine learning algorithms.
+
+This is especially helpful when there are few labeled points (say, 10) and many unlabeled points (say, 1000). Constructing a graph based on all of the data points (labeled and unlabeled) gives us much more information about the position of the labeled points on the data manifold. The premise of semi-supervised learning is that we can use unlabeled points to learn more about the total data manifold and tune machine learning algorithms with fewer labeled data points. Thus, one approach to semi-supervised learning is to impose graph structure that describes the distance of points from each other in terms of the graph manifold.
 
 This repository explores the question: What is best graph construction method for machine learning? 
 
